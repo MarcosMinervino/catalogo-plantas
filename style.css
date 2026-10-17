@@ -1,0 +1,124 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background: url(./images/folhas.avif);
+    /* define a fonte da pagina, tamanho do texto e a imagem de fundo */
+}
+
+.topBar{
+    background-color: green;
+    text-align: center;
+    /* barra de topo com fundo verde e imagem centralizada */
+}
+
+img{
+    height: 100px;
+}
+
+.banner{
+    background: url(./images/plante4.jpg);
+    height: 400px;
+    background-size:initial;
+    background-position:center;
+    /* imagem centralizada e com tamanho original*/
+}
+
+.content{
+    max-width: 990px;
+    margin: auto;
+    padding: 0 40px;
+    background-color: white;
+    /* largura do conteudo da pagina, centralizado, fundo branco, com espaçamento nas laterais de 40px, caso a tela diminua, conteudo na fica nas bordas */
+}
+
+h1,h2{
+    color: green;
+    /* cores dos titulos */
+}
+
+h1{
+    font-size: 3em;
+    padding-top: 100px; 
+    text-align: center;
+    /* titulo principal com font-size alterada, distancia de margem para o topo e centralizado */
+}
+
+h2{
+    font-size: 28px;
+    margin-bottom: 40px;
+    /* fonte maior e margem de baixo maior */
+}
+
+.subtitle{
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 100px;
+    /* fonte mais pesada, centralizada e margem de baixo aumentada */
+}
+
+.card{
+    /* border: 1px solid; */
+    padding: 70px 100px;
+    margin-top: 50px;
+    border-radius: 20px;
+    /* margem interna/externa alterada para acomodar o conteudo no cartao, com bordas arredondadas  */
+}
+
+.card>h2{
+    margin-left: 40px;
+    /* titulo dos cards alinhados com o conteudo */
+}
+
+.card:hover{
+    box-shadow: 8px 8px 15px 12px rgba(205, 205, 205, 0.25);
+    /* tamanho e cor do sobreamento nos cards */
+}
+
+.card-image{
+    width: 300px;
+    height: 300px;
+    margin-left: 40px;
+    /* padronizando a altura e largura das imagens do cards, e margem */
+}
+
+.botao{
+    text-decoration: none;
+    color: green;
+    margin-left: 40px;
+    /* removendo o underline do link e alterando a cor, margem levemente pra esquerda */
+}
+
+p,li{
+    line-height: 28px;
+    /* espaçamento de linhas */
+}
+
+ul{
+    margin-bottom: 50px;
+    /* margem de baixo entre as listas */
+}
+
+li{
+    margin-bottom: 14px;
+    list-style-type: none;
+    /* remove o icone dos itens da lista */
+}
+
+.great{
+    margin: 200px 0;
+    /* margem de distancia do ultimo paragrafo */
+}
+
+.footer {
+    background-color: green;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    /* cor de fundo/texto, alinhamento de texto e espaçamento do conteudo para a div */
+}
